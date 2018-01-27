@@ -4,7 +4,7 @@ Rails.application.configure do
   # Code is not reloaded between requests.
 
   # Necessary for Devise gem
-  config.action_mailer.default_url_options = { host: 'cabinet-asmentko.herokuapp.com’ }
+  config.action_mailer.default_url_options = { host: 'cabinet-asmentko.herokuapp.com' }
 
   config.cache_classes = true
 
