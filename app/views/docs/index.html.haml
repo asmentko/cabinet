@@ -7,6 +7,7 @@
             %p.title= doc.title
             %p.date= time_ago_in_words(doc.created_at)
             %p.content= truncate(doc.content, length:50)
+            %p.count #{TextAnalysis.analyze_text(doc.content).total_words} Words / #{TextAnalysis.analyze_text(doc.content).total_characters} Characters
     - else
       %h2 Create Note!
       %p Start Creating Documents and Organizing Your Life!

@@ -38,3 +38,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'haml', '~> 5.0', '>= 5.0.4'
 gem 'devise', '~> 4.4', '>= 4.4.1'
 gem 'simple_form', '~> 3.5'
+gem 'text_analysis'
